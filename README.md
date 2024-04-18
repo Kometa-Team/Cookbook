@@ -1,4 +1,4 @@
-## Plex-Meta-Manager Cookbook
+## Kometa Cookbook
 
 This repo contains cookbook-style "recipes" and guides written in response to recurring questions on the Kometa Discord.
 
