@@ -4,7 +4,7 @@
 
 The plan is to convert some or all of these to Markdown; for now, here are links to the source Google Docs
 
-Note that these may refer to "Plex Meta Manager", the former name of Kometa.  They will be updated as time allows
+Note that these may refer to "Plex Meta Manager", the former name of Kometa.  They will be updated as time allows.
 
 ## Source Documents
 
