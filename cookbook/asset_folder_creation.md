@@ -18,7 +18,7 @@ libraries:
 #             episodes: false
 
 settings:
-  asset_directory: config/hampus-assets
+  asset_directory: config/sample-assets
   asset_folders: false
   create_asset_folders: false
   download_url_assets: false
@@ -92,9 +92,9 @@ changed:
 ```
 ### Run 04 result:
 
-1. created `config/hampus-assets/poster NO`
-1. created `config/hampus-assets/poster YES`
-1. downloaded `https://theposterdb.com/api/assets/203792` to `config/hampus-assets/poster YES/poster.jpg`
+1. created `config/sample-assets/poster NO`
+1. created `config/sample-assets/poster YES`
+1. downloaded `https://theposterdb.com/api/assets/203792` to `config/sample-assets/poster YES/poster.jpg`
 
 ## RUN 5
 ---
@@ -108,7 +108,7 @@ changed:
 
 ### Run 05 result:
 
-downloaded `https://theposterdb.com/api/assets/203792` to `config/hampus-assets/poster YES/poster.jpg`
+downloaded `https://theposterdb.com/api/assets/203792` to `config/sample-assets/poster YES/poster.jpg`
 
 ## RUN 6
 ---
@@ -171,13 +171,13 @@ nothing created or downloaded
 ---
 ### Run 10 changes:
 
-manually created: `config/hampus-assets/TV`
+manually created: `config/sample-assets/TV`
 
 ### Run 10 result:
 
-1. created `config/hampus-assets/TV/poster NO`
-1. created `config/hampus-assets/TV/poster YES`
-1. downloaded `https://theposterdb.com/api/assets/203792` to `config/hampus-assets/TV/poster YES/poster.jpg`
+1. created `config/sample-assets/TV/poster NO`
+1. created `config/sample-assets/TV/poster YES`
+1. downloaded `https://theposterdb.com/api/assets/203792` to `config/sample-assets/TV/poster YES/poster.jpg`
 
 So there's something we've learned:
 
