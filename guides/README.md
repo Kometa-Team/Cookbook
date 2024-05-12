@@ -1,12 +1,9 @@
-## Articles:
 
 [Using positional vs non-positional overlays](https://github.com/kometa-team/Kometa-Cookbook/blob/main/guides/positional-non-positional.md)
 
 The plan is to convert some or all of these to Markdown; for now, here are links to the source Google Docs
 
 Note that these may refer to "Plex Meta Manager", the former name of Kometa.  They will be updated as time allows.
-
-## Source Documents
 
 [Directory](https://drive.google.com/drive/folders/19wmCc0MJ6fg8-FcrTvs0jzg84rbpz8og?usp=sharing)
 
@@ -25,12 +22,4 @@ Note that these may refer to "Plex Meta Manager", the former name of Kometa.  Th
 [Template modifications to status overlay](https://docs.google.com/document/d/14qV3LKhD2_E1J-naGFF4veImwAx9_hFhxWb0psWB-po/edit?usp=sharing)
 
 [Installing Kometa on Raspberry Pi](https://docs.google.com/document/d/1ZRfZcTL7Lo-wTfgrZX9moFe4xGguBYEnFgGibGjBBYA/edit?usp=sharing)
-
-### Converted to MD:
-
-[positional vs nonpositional](https://docs.google.com/document/d/1maelLydpuT5XTdwxnRF9Dpg1zF4_FUcjuUxOGoCqMU0/edit?usp=sharing)
-
-### Incorporated into Kometa wiki:
-
-[How do ratings work?](https://docs.google.com/document/d/1yo7C9XOyfkj_RckFHnuS-LAFFNTeMBsmCs5kHT5akLs/edit?usp=sharing)
 
