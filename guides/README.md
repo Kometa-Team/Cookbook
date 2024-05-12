@@ -21,5 +21,3 @@ Note that these may refer to "Plex Meta Manager", the former name of Kometa.  Th
 
 [Template modifications to status overlay](https://docs.google.com/document/d/14qV3LKhD2_E1J-naGFF4veImwAx9_hFhxWb0psWB-po/edit?usp=sharing)
 
-[Installing Kometa on Raspberry Pi](https://docs.google.com/document/d/1ZRfZcTL7Lo-wTfgrZX9moFe4xGguBYEnFgGibGjBBYA/edit?usp=sharing)
-
