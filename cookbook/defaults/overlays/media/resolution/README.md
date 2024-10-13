@@ -1,1 +1,1 @@
-## Resolution/Editions2
+## Resolution/Editions
