@@ -1,4 +1,6 @@
-# BASICS
+# using custom images with the resolution overlay
+
+## BASICS
 
 1. create your new images
    
