@@ -153,7 +153,6 @@ settings:
 |     1 | Asset Warning: Asset Directory Not Found and Created: config/universe-assets/DC Extended Universe |
 |     1 | Asset Warning: Asset Directory Not Found and Created: config/universe-assets/Fast & Furious |
 |     1 | Asset Warning: Asset Directory Not Found and Created: config/universe-assets/In Association With Marvel |
-|     1 | Trakt Error: No TVDb ID found for Marvel's Agents of S.H.I.E.L.D.: Slingshot (2016)        |
 |     1 | Asset Warning: Asset Directory Not Found and Created: config/universe-assets/Marvel Cinematic Universe |
 |     1 | Asset Warning: Asset Directory Not Found and Created: config/universe-assets/Middle Earth  |
 |     1 | Asset Warning: Asset Directory Not Found and Created: config/universe-assets/Rocky  Creed  |
@@ -200,3 +199,18 @@ Note that all these collections are now using the asset-sourced posters.
 Also, Kometa has renamed the asset images:
 
 ![image](https://github.com/user-attachments/assets/720c592b-b96e-4de5-bb41-eb9c373b60fb)
+
+One last run to demonstrate the importance of `prioritize_assets: true`.
+
+I turn that off:
+```yaml
+settings:
+  prioritize_assets: false
+```
+
+Then run Kometa one more time with no other changes.
+
+The assets are still there and named correctly, but since the default images are URLs, they will win over the assets, producing:
+
+![image](https://github.com/user-attachments/assets/0db5118b-a272-49e8-a5a5-5c3ad2614f35)
+
