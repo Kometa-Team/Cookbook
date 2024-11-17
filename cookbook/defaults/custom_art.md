@@ -60,7 +60,7 @@ Note that the three collections that are specified in the template variables hav
 
 ### All at once
 
-Say you want to replace them all with the minimum information in the config.
+Say you want to replace them all while adding the minimum information in the config.
 
 Use a single template variable with a placeholder for Kometa to replace:
 
@@ -75,11 +75,26 @@ libraries:
 
 In this case, Kometa will fill in that path with the key for each universe in turn.
 
-Then running Kometa produces:
+The "key" can be foudn in the table at the top of each default's wiki page.  In this case, the keys are `avp`, `dca`, `dcu`, etc.
+
+Now running Kometa produces:
 
 ![image](https://github.com/user-attachments/assets/2c41a831-a15e-4958-b9b1-332161e9ce8d)
 
 Note that all posters are changed to the custom images.
+
+Kometa took this:
+```
+config/images/custom/universe/<<key>>.png
+```
+And replaced `<<key>>` in turn with each key, resulting in:
+```
+config/images/custom/universe/avp.png
+config/images/custom/universe/dca.png
+config/images/custom/universe/dcu.png
+...
+```
+Which you will note are the same paths as we used just above when specifying these individually
 
 Those examples both use file paths, but you can do the same thing with URLs, though with URLs you may need to specify them individually unless you can control the URLs such that they can be made all the same except for the key.
 
