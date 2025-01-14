@@ -41,7 +41,7 @@ libraries:
           use_hdr: false
 ```
 
-Show, Season, Episodes; none of the different video types.
+Show, Season, Episodes; none of the different video types.  I turned those off since nothing in this library meets any of those criteria so no point in running them.
 
 I have three copies; one with all three levels, one with Show and Season only, one with Show only.  I also have one with `remove_overlays: true` to get back to a known starting point.
 
