@@ -4,7 +4,7 @@ Here are a set of timings to use as a *relative* guide when deciding whether you
 
 These experiments were performed on a library containing two shows, one with 27 seasons and 562 total episodes, the other with 6 seasons and 69 total episodes.
 
-Of course this is a tiny example, but this is only meant as an example to show relative times.  Only two shows so that there experiments run in a reasonable time.
+Of course this is a tiny example, but this is only meant as an example to show relative times.  There are only two shows so that these experiments run in a reasonable time.
 
 Don't pay any attention to the specific times here.  Pay attention to the relative times.
 
