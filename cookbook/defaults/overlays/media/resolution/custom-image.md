@@ -78,4 +78,40 @@ Which produces:
 ![image](https://github.com/user-attachments/assets/1fd8f40e-12c3-4ed0-abb8-14c5abd0eaf8)
 
 
+## VARYING SIZE
 
+The examples above assume that the new images are all the same size as the default ones, so you cna change the lozenge size uniformly.
+
+Maybe this isn't the case for you.
+
+You want to change just one of hte resoution images to some giant wide thing:
+
+![wide-image](https://github.com/user-attachments/assets/9f179f96-083b-4731-bd9d-5306d05b9494)
+
+You probably don't want something like this:
+
+```yaml
+libraries:
+  TV Shows:
+    overlay_files:
+      - default: resolution
+        template_variables:
+          file_1080p: config/wide-image.png
+          back_width: 564
+```
+
+![image](https://github.com/user-attachments/assets/0feb6785-034c-4610-9898-b0ef63c735bb)
+
+It's undocumented as of this writing, but you can use the standard `variable_<<key>>` construction to change the back_width on a key-by-key basis:
+
+```yaml
+libraries:
+  TV Shows:
+    overlay_files:
+      - default: resolution
+        template_variables:
+          file_1080p: config/wide-image.png
+          back_width_1080p: 564
+```
+Which produces:
+![image](https://github.com/user-attachments/assets/efef9913-3e7f-46cc-ada1-1534bf24e0f0)
