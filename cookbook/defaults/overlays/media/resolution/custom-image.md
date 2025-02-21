@@ -80,11 +80,11 @@ Which produces:
 
 ## VARYING SIZE
 
-The examples above assume that the new images are all the same size as the default ones, so you cna change the lozenge size uniformly.
+The examples above assume that the new images are all the same size as the default ones, so you can change the lozenge size uniformly.
 
 Maybe this isn't the case for you.
 
-You want to change just one of hte resoution images to some giant wide thing:
+You want to change just one of the resoution images to some giant wide thing:
 
 ![wide-image](https://github.com/user-attachments/assets/9f179f96-083b-4731-bd9d-5306d05b9494)
 
