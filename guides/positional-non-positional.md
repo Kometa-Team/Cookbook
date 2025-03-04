@@ -85,7 +85,7 @@ overlays:
         resolution: 4K
     overlay:                   # we need this "overlay" atribute to specify positioning
       name: pos                # since we have an "overlay" attribute, we need to specify the file name here
-                               # The "pos" up above is now ununsed and completely arbitrary
+                               # The "pos" up above is now unused and completely arbitrary
       horizontal_align: right  # where to align the overlay horizontally on the poster
       horizontal_offset: 0     # offset this many pixels _in_ from the alignment edge
                                # if alignment is "left" or "center", this is moving the image to the right
