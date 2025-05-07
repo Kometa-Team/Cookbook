@@ -82,4 +82,5 @@ And:
 
 That's a blunt instrument, though, and may delete more than you intend.
 
-The simplest thing would be to delete them manually in the UI, since you're jsut doing a one-time cleanup on the consolidated genres.
+The simplest thing would be to delete them manually in the UI, since you're doing a one-time cleanup on the consolidated genres.  This is often the simplest way to clean up unwanted collections generally.
+
