@@ -75,7 +75,7 @@ libraries:
 
 In this case, Kometa will fill in that path with the key for each universe in turn.
 
-The "key" can be foudn in the table at the top of each default's wiki page.  In this case, the keys are `avp`, `dca`, `dcu`, etc.
+The "key" can be found in the table at the top of each default's wiki page.  In this case, the keys are `avp`, `dca`, `dcu`, etc.
 
 Now running Kometa produces:
 
