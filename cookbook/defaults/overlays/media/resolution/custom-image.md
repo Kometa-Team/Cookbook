@@ -114,4 +114,12 @@ libraries:
           back_width_1080p: 564
 ```
 Which produces:
+
 ![image](https://github.com/user-attachments/assets/efef9913-3e7f-46cc-ada1-1534bf24e0f0)
+
+## INTERACTION WITH EDITION
+
+If you also use the "edition" overlays, those are also images, with backdrops shaped so that they butt up next to the resolution overlays and look like one lozenge.
+
+If you change the size of the resolution overlay lozenge and want to keep using the edition overlay, you will have to modify all those images as well.
+
